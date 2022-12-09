@@ -1,8 +1,17 @@
-﻿using reseprogram;
+﻿///<summary>
+/// Namn: Xiu xiu 
+/// SY 21
+/// I den här fil finns super klassen för sub klassen och olika egenskaper för olika sub klasser. 
+/// </summary>
+
+using reseprogram;
 using System.Text.RegularExpressions;
 
 namespace reseprogram
 {
+    /// <summary>
+    /// Den är en super klass och en ritning för hur sub klassen ska ser ut. 
+    /// </summary>
     abstract class Resebolag
     {
         protected string Namn { get; set; }
@@ -35,7 +44,9 @@ namespace reseprogram
             return false;                               //Annars false
         }
     }
-
+    /// <summary>
+    /// De här är sub kalssen som har olika egenskaper för olika verksamheter. 
+    /// </summary>
     class BB : Resebolag
     {
         private int Pris { get; set; }

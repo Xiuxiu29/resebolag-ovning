@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\xiu.tang\\source\\repos\\Resebolag\\Resebolag\\Resebolag.csproj": {}
+    "C:\\Users\\xiu.tang\\source\\repos\\Resebolag\\resebolag-ovning\\Resebolag\\Resebolag.csproj": {}
   },
   "projects": {
-    "C:\\Users\\xiu.tang\\source\\repos\\Resebolag\\Resebolag\\Resebolag.csproj": {
+    "C:\\Users\\xiu.tang\\source\\repos\\Resebolag\\resebolag-ovning\\Resebolag\\Resebolag.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\xiu.tang\\source\\repos\\Resebolag\\Resebolag\\Resebolag.csproj",
+        "projectUniqueName": "C:\\Users\\xiu.tang\\source\\repos\\Resebolag\\resebolag-ovning\\Resebolag\\Resebolag.csproj",
         "projectName": "Resebolag",
-        "projectPath": "C:\\Users\\xiu.tang\\source\\repos\\Resebolag\\Resebolag\\Resebolag.csproj",
+        "projectPath": "C:\\Users\\xiu.tang\\source\\repos\\Resebolag\\resebolag-ovning\\Resebolag\\Resebolag.csproj",
         "packagesPath": "C:\\Users\\xiu.tang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\xiu.tang\\source\\repos\\Resebolag\\Resebolag\\obj\\",
+        "outputPath": "C:\\Users\\xiu.tang\\source\\repos\\Resebolag\\resebolag-ovning\\Resebolag\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

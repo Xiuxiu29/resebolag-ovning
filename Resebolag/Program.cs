@@ -17,6 +17,7 @@ void Meny()
 
             while (true)
             {
+
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Green;               //Ändrar färg till grön. 
                 Console.WriteLine("[Registrere en verksamhet.]");
@@ -69,6 +70,14 @@ void Meny()
 
                         Console.WriteLine("Hur många rum finns det?");
                         int rum = int.Parse(Console.ReadLine());
+
+                        //while()
+                        //{
+                        //try
+                        //{}
+                        //OverflowException
+                        //{}
+                        //}
 
                         if (rum > 120) { rum = 120; }            //Om rum är större än 120 så = 120
                         if (rum < 0) { rum = 0; }
@@ -174,6 +183,8 @@ void Meny()
 
                     Console.WriteLine(" Vad heter den verksamhet du vill ta bort? hotell, bb eller vandrarhem? ");
                     string verksamhet;
+                    verksamhet = Console.ReadLine();
+                    Console.WriteLine("Vad är namnet?");
                     verksamhet = Console.ReadLine();
 
                      for (int i = 0; i < verksamheter.Count; i++)        //For loop som sätt value på verksamheten som man ska ta bort. 
