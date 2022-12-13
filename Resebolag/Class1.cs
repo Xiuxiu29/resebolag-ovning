@@ -1,6 +1,6 @@
 ﻿///<summary>
 /// Namn: Xiu xiu 
-/// SY 21
+/// klass:SY21
 /// I den här fil finns super klassen för sub klassen och olika egenskaper för olika sub klasser. 
 /// </summary>
 
@@ -35,7 +35,7 @@ namespace reseprogram
         {
             return Namn;
         }
-        public bool CompareName(string input)           //Järmföra med namn man måttar in 
+        public bool CompareName(string input)           //Järmföra med namn man måttar in från program
         {
             if(input == this.Namn)
             {
